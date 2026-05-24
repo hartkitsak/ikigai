@@ -15,10 +15,10 @@ metadata:
 
 ## Quick Start
 
-บอก AI agent ว่า:
+พิมพ์ใน Claude Code:
 
 ```
-อ่าน ikigai/SKILL.md แล้วช่วยหา Ikigai ให้หน่อย
+/ikigai ช่วยหา Ikigai ให้หน่อย
 ผมอายุ 28 เป็นโปรแกรมเมอร์ แต่รู้สึกเบื่อ ไม่รู้ว่าชีวิตควรไปทางไหน
 ```
 
