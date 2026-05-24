@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <defs>
+    <filter id="shadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="2" stdDeviation="4" flood-opacity="0.15" />
+    </filter>
+    <style>
+      text { font-family: 'Sarabun', 'Segoe UI', sans-serif; }
+      .label { font-size: 14px; font-weight: 700; fill: #fff; text-anchor: middle; dominant-baseline: middle; }
+      .sub-label { font-size: 11px; font-weight: 600; fill: #e0e0e0; text-anchor: middle; dominant-baseline: middle; }
+      .center-text { font-size: 22px; font-weight: 900; fill: #1a1a2e; text-anchor: middle; dominant-baseline: middle; letter-spacing: 2px; }
+      .center-sub { font-size: 11px; font-weight: 600; fill: #3d3d5c; text-anchor: middle; dominant-baseline: middle; }
+      .corner-label { font-size: 13px; font-weight: 700; fill: #1a1a2e; text-anchor: middle; dominant-baseline: middle; }
+      .corner-sub { font-size: 10px; font-weight: 400; fill: #555; text-anchor: middle; dominant-baseline: middle; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="500" height="500" fill="#f8f9fa" rx="16" />
+
+  <!-- Circle 4 — Paid For (bottom) -->
+  <circle cx="250" cy="340" r="120" fill="#FFA94D" fill-opacity="0.60" stroke="#E67E22" stroke-width="2" filter="url(#shadow)" />
+
+  <!-- Circle 3 — World Needs (right) -->
+  <circle cx="350" cy="250" r="120" fill="#69DB7C" fill-opacity="0.60" stroke="#40C057" stroke-width="2" filter="url(#shadow)" />
+
+  <!-- Circle 2 — Good At (left) -->
+  <circle cx="150" cy="250" r="120" fill="#74C0FC" fill-opacity="0.60" stroke="#339AF0" stroke-width="2" filter="url(#shadow)" />
+
+  <!-- Circle 1 — Love (top) -->
+  <circle cx="250" cy="160" r="120" fill="#FF8787" fill-opacity="0.60" stroke="#FA5252" stroke-width="2" filter="url(#shadow)" />
+
+  <!-- Intersection labels -->
+  <!-- Passion (Love + Good At): top-left between circle 1 and 2 -->
+  <text x="175" y="195" class="sub-label" fill="#c0392b">PASSION</text>
+  <text x="175" y="208" class="sub-label" fill="#c0392b" font-size="9px">❤️ + ✅</text>
+
+  <!-- Mission (Love + World Needs): top-right between circle 1 and 3 -->
+  <text x="325" y="195" class="sub-label" fill="#c0392b">MISSION</text>
+  <text x="325" y="208" class="sub-label" fill="#c0392b" font-size="9px">❤️ + 🌍</text>
+
+  <!-- Profession (Good At + Paid For): bottom-left -->
+  <text x="175" y="310" class="sub-label" fill="#2b6cb0">PROFESSION</text>
+  <text x="175" y="323" class="sub-label" fill="#2b6cb0" font-size="9px">✅ + 💰</text>
+
+  <!-- Vocation (World Needs + Paid For): bottom-right -->
+  <text x="325" y="310" class="sub-label" fill="#2b6cb0">VOCATION</text>
+  <text x="325" y="323" class="sub-label" fill="#2b6cb0" font-size="9px">🌍 + 💰</text>
+
+  <!-- Center — IKIGAI -->
+  <circle cx="250" cy="250" r="36" fill="#fff" fill-opacity="0.85" stroke="#1a1a2e" stroke-width="3" filter="url(#shadow)" />
+  <text x="250" y="244" class="center-text">IKIGAI</text>
+  <text x="250" y="262" class="center-sub">จุดตัดของ 4 วง</text>
+
+  <!-- Corner labels -->
+  <!-- Love (top) -->
+  <rect x="215" y="36" width="70" height="46" rx="23" fill="#FA5252" filter="url(#shadow)" />
+  <text x="250" y="58" class="label">❤️ รัก</text>
+  <text x="250" y="73" class="sub-label">สิ่งที่ชอบ</text>
+
+  <!-- Good At (left) -->
+  <rect x="20" y="225" width="70" height="46" rx="23" fill="#339AF0" filter="url(#shadow)" />
+  <text x="55" y="247" class="label">✅ เก่ง</text>
+  <text x="55" y="262" class="sub-label">สิ่งที่ถนัด</text>
+
+  <!-- World Needs (right) -->
+  <rect x="410" y="225" width="70" height="46" rx="23" fill="#40C057" filter="url(#shadow)" />
+  <text x="445" y="247" class="label">🌍 ต้องการ</text>
+  <text x="445" y="262" class="sub-label">โลกต้องการ</text>
+
+  <!-- Paid For (bottom) -->
+  <rect x="215" y="420" width="70" height="46" rx="23" fill="#E67E22" filter="url(#shadow)" />
+  <text x="250" y="442" class="label">💰 เงิน</text>
+  <text x="250" y="457" class="sub-label">ทำเงินได้</text>
+
+</svg>
