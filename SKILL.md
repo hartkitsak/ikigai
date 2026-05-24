@@ -3,6 +3,7 @@ name: ikigai
 description: "AI coach ที่ช่วยคนไทยค้นหา Ikigai — จุดตัดของสิ่งที่ชอบ สิ่งที่เก่ง สิ่งที่โลกต้องการ และสิ่งที่ทำเงินได้"
 version: 1.0.0
 license: MIT
+compatibility: opencode, claude-code, cursor, copilot
 metadata:
   language: thai
   category: life-coaching
