@@ -4,11 +4,15 @@
 
 AI coach ที่ช่วยคนไทยค้นหา Ikigai — จุดตัดของสิ่งที่ชอบ สิ่งที่เก่ง สิ่งที่โลกต้องการ และสิ่งที่ทำเงินได้
 
-## วิธีใช้ (Claude Code / opencode)
+## Quick Start
 
-```
-/ikigai ช่วยหา Ikigai ให้หน่อย
-ผมอายุ 28 เป็นโปรแกรมเมอร์ แต่รู้สึกเบื่อ
+```powershell
+# 1. Clone ไปที่ skills folder
+git clone https://github.com/hartkitsak/ikigai.git "$env:APPDATA\opencode\skills\ikigai"
+
+# 2. เปิด Claude Code แล้วใช้:
+# /ikigai ช่วยหา Ikigai ให้หน่อย
+# ผมอายุ 28 เป็นโปรแกรมเมอร์ แต่รู้สึกเบื่อ
 ```
 
 ## โครงสร้าง
