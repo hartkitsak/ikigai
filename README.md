@@ -1,5 +1,7 @@
 # ikigai 🎯
 
+[![Use this template](https://img.shields.io/badge/-Use%20this%20template-2ea44f)](https://github.com/hartkitsak/ikigai/generate)
+
 AI coach ที่ช่วยคนไทยค้นหา Ikigai — จุดตัดของสิ่งที่ชอบ สิ่งที่เก่ง สิ่งที่โลกต้องการ และสิ่งที่ทำเงินได้
 
 ## วิธีใช้ (Claude Code / opencode)
